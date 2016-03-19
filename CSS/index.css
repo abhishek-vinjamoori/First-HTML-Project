@@ -1,0 +1,597 @@
+main{
+	margin-top:500px;
+}
+#output
+{
+    font-size:35px;
+    font-style:italic;
+    color:green;
+}
+#quiz{
+    font-size:20px;
+    font-weight:bold;
+}
+.patha{
+	position:absolute;
+    top:60%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+.pathb{
+    position:absolute;
+    top:60%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+.pathc{
+    position:absolute;
+    top:60%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+.pathd{
+    position:absolute;
+    top:60%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+#balla{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:0%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bouncea 2s infinite;
+	-webkit-animation:bouncea 2s infinite;
+}
+#ballb{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:14.28%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bounceb 2s infinite;
+	-webkit-animation:bounceb 2s infinite;
+}
+#ballc{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:28.56%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation: dim 2s infinite;
+	-webkit-animation: dim 2s infinite;
+}
+.pathe{
+    position:absolute;
+    top:60%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+#balld{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:42.84%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bouncec 2s infinite;
+	-webkit-animation:bouncec 2s infinite;    
+}
+#balle{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:57.12%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bouncee 2s infinite;
+	-webkit-animation:bouncee 2s infinite;   
+}
+@keyframes dim
+{
+    0%   
+    {
+	opacity:0;
+    }
+    30%
+    {
+	opacity:0;
+    }    
+    50% 
+    {
+	opacity:1;
+	background: red;
+    }
+    100% 
+    {
+	opacity:0;
+    }
+}
+@-webkit-keyframes dim
+{
+    0%   
+    {
+	opacity:0;
+    }
+    30%
+    {
+	opacity:0;
+    }    
+    50% 
+    {
+	opacity:1;
+	background: red;
+    }
+    100% 
+    {
+	opacity:0;
+    }
+}
+
+@keyframes bouncea
+{
+    0% {
+	left:0%;
+	opacity:0;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:15%;
+}
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:0%;
+    }
+}
+@-webkit-keyframes bouncea
+{
+    0% {
+	left:0%;
+	opacity:0;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:15%;
+}
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:0%;
+    }
+}
+
+@keyframes bounceb{
+    0% {
+	opacity:0;
+	left:14.28%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:23%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{opacity:0;
+	 left:14.28%;}
+}
+@-webkit-keyframes bounceb{
+    0% {
+	opacity:0;
+	left:14.28%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:23%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:14.28%;
+	 }
+}
+@keyframes bouncec{
+    0% {
+	opacity:0;
+	left:42.84%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:35%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:42.84%;
+    }
+}
+@-webkit-keyframes bouncec{
+    0% {
+	opacity:0;
+	left:42.84%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:35%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:42.84%;
+    }
+}
+@keyframes bouncee{
+    0% {
+	opacity:0;
+	left:57.12%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:42%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:57.12%;
+    }
+}
+@-webkit-keyframes bouncee{
+    0% {
+	opacity:0;
+	left:57.12%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:42%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:57.12%;
+    }
+}
+.pathf{
+	position:absolute;
+    top:80%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+.pathg{
+    position:absolute;
+    top:80%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+.pathh{
+    position:absolute;
+    top:80%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+.pathi{
+    position:absolute;
+    top:80%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+#ballf{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:0%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bouncef 2s infinite;
+	-webkit-animation:bouncef 2s infinite;
+}
+#ballg{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:14.28%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bounceg 2s infinite;
+	-webkit-animation:bounceg 2s infinite;
+}
+#ballh{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:28.56%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation: dim 2s infinite;
+	-webkit-animation: dim 2s infinite;
+}
+.pathj{
+    position:absolute;
+    top:80%;
+    left:0%;
+    width:1700px;
+    height:80px;
+}
+#balli{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:42.84%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bounceh 2s infinite;
+	-webkit-animation:bounceh 2s infinite;    
+}
+#ballj{
+    border-radius:40px;
+    color:white;
+    text-align:center;
+    font-size:400%;
+    position:relative;
+    left:57.12%;
+    width:80px;
+    height:80px;
+    background-color:red;
+    animation:bouncej 2s infinite;
+	-webkit-animation:bouncej 2s infinite;   
+}
+@keyframes dim
+{
+    0%   
+    {
+	opacity:0;
+    }
+    30%
+    {
+	opacity:0;
+    }    
+    50% 
+    {
+	opacity:1;
+	background: red;
+    }
+    100% 
+    {
+	opacity:0;
+    }
+}
+@keyframes bouncef
+{
+    0% {
+	left:0%;
+	opacity:0;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:15%;
+}
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:0%;
+    }
+}
+@-webkit-keyframes bouncef
+{
+    0% {
+	left:0%;
+	opacity:0;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:15%;
+}
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:0%;
+    }
+}
+
+@keyframes bounceg{
+    0% {
+	opacity:0;
+	left:14.28%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:23%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{opacity:0;
+	 left:14.28%;}
+}
+@-webkit-keyframes bounceg{
+    0% {
+	opacity:0;
+	left:14.28%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:23%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:14.28%;
+	 }
+}
+@keyframes bounceh{
+    0% {
+	opacity:0;
+	left:42.84%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:35%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:42.84%;
+    }
+}
+@-webkit-keyframes bounceh{
+    0% {
+	opacity:0;
+	left:42.84%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:35%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:42.84%;
+    }
+}
+@keyframes bouncej{
+    0% {
+	opacity:0;
+	left:57.12%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:42%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:57.12%;
+    }
+}
+@-webkit-keyframes bouncej{
+    0% {
+	opacity:0;
+	left:57.12%;
+    }
+    30%{
+	opacity:0;
+    }
+    50%{
+	opacity:1;
+	left:42%;
+    }
+    75%{
+	opacity:1;
+    }
+    100%{
+	opacity:0;
+	left:57.12%;
+    }
+}
+

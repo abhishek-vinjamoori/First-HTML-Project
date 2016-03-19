@@ -1,0 +1,82 @@
+  <!DOCTYPE html>
+  <html>
+      <head>
+          <title>Fun Stuff
+          </title>
+          <meta charset="UTF-8">
+          <link rel="stylesheet" type="text/css" href="./CSS/funstuff.css">
+          <link rel="stylesheet" type="text/css" href="./CSS/global.css">
+          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      </head>
+      <body onload="marquee()">
+          <script src="./JS/marquee.js"></script>
+          <script src="./JS/check.js"></script>
+          <script src="./JS/game.js"></script>
+          <h1 class="head">Abhishek Vinjamoori</h1>
+          <div class="navig">
+          <nav>
+              <ul class="nav">
+                  <li id="personal"><a href="./personal_details.html">Personal Details</a></li>
+                  <li id="academic"><a href="./academic.html">Academic Profile</a></li>
+                  <li id="interests"><a href="./interests.html">Interests and Achievements</a></li>
+                  <li id="funstuff"><a href="./funstuff.html">Fun Stuff</a></li>
+              </ul>
+              <a href="./index.html" class="home">Home</a>
+          </nav>
+          </div>
+          <main>
+              <h2>A Simple Game to begin with !</h2>
+              <p id="quiz">Try to figure out what is written in the canvas and input it in the box below (Hint:"F5 or "SCROLL")</p>
+              <canvas id="canvasId" width="1200" height="500">
+                  Your browser does not support the HTML 5 Canvas.
+              </canvas>
+              <br>
+              <input id="answer" type="text">
+              <button type="button" onclick="check()" id="button">Am I right?</button>
+              <p id="output"></p>
+              <br>
+              <h2>Basic Calculator (Created using JS)</h2>
+              <form name="Calc">
+  <table id="tab">
+  <TR>
+  <TD colspan="4">
+  <INPUT TYPE="text"   NAME="Input" >
+  </TD>
+  </TR>
+  <TR>
+  <TD><INPUT TYPE="button" NAME="one"   VALUE="  1  " OnClick="Calc.Input.value += '1'"></TD>
+  <TD><INPUT TYPE="button" NAME="two"   VALUE="  2  " OnCLick="Calc.Input.value += '2'"></TD>
+  <TD><INPUT TYPE="button" NAME="three" VALUE="  3  " OnClick="Calc.Input.value += '3'"></TD>
+  <TD><INPUT TYPE="button" NAME="plus"  VALUE="  +  " OnClick="Calc.Input.value += ' + '"></TD>
+  </TR>
+  <TR>
+  <TD><INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick="Calc.Input.value += '4'"></TD>
+  <TD><INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'"></TD>
+  <TD><INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'"></TD>
+  <TD><INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '"></TD>
+  </TR>
+  <TR>
+  <TD><INPUT TYPE="button" NAME="seven" VALUE="  7  " OnClick="Calc.Input.value += '7'"></TD>
+  <TD><INPUT TYPE="button" NAME="eight" VALUE="  8  " OnCLick="Calc.Input.value += '8'"></TD>
+  <TD><INPUT TYPE="button" NAME="nine"  VALUE="  9  " OnClick="Calc.Input.value += '9'"></TD>
+  <TD><INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '"></TD>
+  </tr>
+  <tr>
+  <td><INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''"></TD>
+  <td><INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'"></TD>
+  <td><INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)"></TD>
+  <td><INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '"></TD>
+  </tr>
+  </table>
+  </form>
+  <br>
+
+          </main>
+            <div id="fo">
+          <hr>
+          <footer>
+              <p id="foot">&copy; @Abhishek Vinjamoori. All rights reserved.</p>
+          </footer>
+          </div>
+      </body>
+  </html>
